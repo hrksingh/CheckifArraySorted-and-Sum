@@ -9,7 +9,7 @@ public class Carlos {
 		for (int i = 0; i < b.length; i++) {
 
 			if (!isSorted(b[i])) {
-				System.out.println(getsum(b[i]));
+				System.out.println(getSum(b[i]));
 			}
 
 		}
@@ -41,7 +41,7 @@ public class Carlos {
 		return result || result2;
 	}
 
-	private static int getsum(int[] is) {
+	private static int getSum(int[] is) {
 		int sum = 0;
 		for (int i : is) {
 			sum += i;
